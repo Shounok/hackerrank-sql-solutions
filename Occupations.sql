@@ -5,6 +5,8 @@ CASE [value-to-be-compared]
     WHEN [argument_2] THEN [expression_2]
     ..
     END
+
+So, if any specific occupation found, we add them in a row of another table we created.
 */
 SET @doc=0, @sing=0, @prof=0, @act=0;
 
